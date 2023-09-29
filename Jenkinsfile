@@ -1,2 +1,5 @@
 @Library('roboshop') _
-pipeline()
+
+env.codType = "HTML"
+env.component = "frontend"
+cipipeline()
