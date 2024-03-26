@@ -49,3 +49,5 @@ pipeline{
       }
    }
 }
+
+//JENKINS_URL/multibranch-webhook-trigger/invoke?token=[Trigger token]
