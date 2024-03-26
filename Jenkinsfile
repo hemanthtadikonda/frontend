@@ -33,7 +33,7 @@ pipeline{
       }
       stage('code security') {
          when {
-            expression { env.BRANCH_NAME ==~ ".*"}
+            expression { env.BRANCH_NAME ==~ "main"}
          }
          steps {
             sh 'echo code security'
